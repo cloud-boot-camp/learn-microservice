@@ -16,50 +16,52 @@
 
 ### 介绍
 
-Developing RESTful web services is fun. The combination of Spring Boot, Spring Web MVC, Spring Web Services and JPA makes it even more fun. And its even more fun to create Microservices.
+开发restful web服务是一件有乐趣的事情。组合使用spring boot，spring web MVC，spring JPA会产生强大的功能。
 
-There are two parts to this course - RESTful web services and Microservices
+课程有两部分 - RESTful web服务 and 微服务
 
-Architectures are moving towards microservices. 
+业界正在向微服务方向发展。Architectures are moving towards microservices. 
 
-RESTful web services are the first step to developing great microservices. Spring Boot, in combination with Spring Web MVC (also called Spring REST) makes it easy to develop RESTful web services. 
+学习restful web服务是开发微服务的第一步。SPring boot和SPring MVC联合起来会更加容易开发restful服务。
 
-In the first part of the course, you will learn the basics of RESTful web services developing resources for a social media application. You will learn to implement these resources with multiple features - versioning, exception handling, documentation (Swagger), basic authentication (Spring Security), filtering and HATEOAS. You will learn the best practices in designing RESTful web services.
+在课程第一部分，我们将会学习restful服务的基本理念和功能。包括，版本化，异常处理，文档产生，基本验证。
+1. Maven ->管理依赖
+2. Spring Secuirty -> 认证和授权
+3. Spring Actuator- >监控
+4. Swagger -> 文档
+5. Eclipse->开发IDE
+6. Postman -> rest客户端
+7. Tomcat ->内嵌的web服务器
 
-In this part of the course, you will be using Spring (Dependency Management), Spring MVC (or Spring REST), Spring Boot, Spring Security (Authentication and Authorization), Spring Boot Actuator (Monitoring), Swagger (Documentation), Maven (dependencies management), Eclipse (IDE), Postman (REST Services Client) and Tomcat Embedded Web Server. We will help you set up each one of these.
-
-In the second part of the course, you will learn the basics of Microservices. You will understand how to implement microservices using Spring Cloud.
-
-In this part of the course, you will learn to establish communication between microservices, enable load balancing, scaling up and down of microservices. You will also learn to centralize configuration of microservices with Spring Cloud Config Server. You will implement Eureka Naming Server and Distributed tracing with Spring Cloud Sleuth and Zipkin. You will create fault toleranct microservices with Zipkin
-
-
-### You will learn
-- You will be able to develop and design RESTful web services
-- You will setup Centralized Microservice Configuration with Spring Cloud Config Server
-- You will understand how to implement Exception Handling, Validation, HATEOAS and filtering for RESTful Web Services.
-- You will implement client side load balancing (Ribbon), Dynamic scaling(Eureka Naming Server) and an API Gateway (Zuul)
-- You will learn to implement Distributed tracing for microservices with Spring Cloud Sleuth and Zipkin
-- You will implement Fault Tolerance for microservices with Zipkin
-- You will understand how to version your RESTful Web Services
-- You will understand how to monitor RESTful Services with Spring Boot Actuator
-- You will understand how to document RESTful Web Services with Swagger
-- You will understand the best practices in designing RESTful web services
-- Using Spring Cloud Bus to exchange messages about Configuration updates
-- Simplify communication with other Microservices using Feign REST Client
+在课程的第二部分，我们将会学习微服务的基本知识，怎么使用spring cloud实现微服务
+1. 微服务之间通讯
+2. 负载均衡
+3. 微服务自动扩容
+4. 配置中心化
 
 
-### Step Wise Details
-Refer each steps
+### 学习成果
+- 能够设计和开发restful 服务
+- 搭建中心化配置服务器，Spring cloud config server
+- 实现异常管理，验证，HATEOAS
+- 实现负载均衡riboon，动态扩容Eureka naming server和API gateway
+- 容错处理zipkin
+- 监控服务
+- 自动文档
+- 微服务之间通讯feign rest client
 
-### Expectations
-- You should know Java and Spring. 
-- A basic understanding of developing web applications is a bonus but NOT mandatory. 
-- A basic understanding of Spring Boot is a bonus but NOT mandatory. We have seperate section to introduce Spring Boot.
-- A basic understanding of JPA is a bonus but NOT mandatory. We have seperate section to introduce JPA.
-- You are NOT expected to have any experience with Eclipse, Maven or Tomcat.
-- We will help you install Eclipse and get up and running with Maven and Tomcat.
 
-## Installing Tools
+### 具体步骤
+参看每一步
+
+### 课程前置要求
+- 您应该了解java和spring. 
+- 了解web应用. 
+- 了解spring boot.
+- 了解JPA.
+- 不需要有eclipse，maven或tomcat的经验.
+
+## 安装工具
 - Eclipse & Embedded Maven
 - PostMan
 - Git Client - https://git-scm.com/
